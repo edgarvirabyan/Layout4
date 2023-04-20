@@ -1,0 +1,99 @@
+@media (max-width: 1199px) {
+    .promo {
+        padding: 93px 66px 0;
+    }
+
+    .lessons {
+        .lessons__carousel {
+            max-width: 750px;
+        }
+
+        .lessons__card {
+            height: 350px;
+        }
+
+
+
+        .card-title {
+            font-size: 20px;
+            margin-top: 26px;
+        }
+
+        .card-btn {
+            margin-top: 0;
+        }
+
+        .slick-slide {
+            margin: 56px 20px;
+        }
+    }
+
+    .ecosystem {
+        .partners {
+            .partners__carousel {
+                max-width: 660px;
+            }
+
+            .partners__card {
+                min-height: 360px;
+                padding: 70px 28px 10px;
+            }
+
+
+            .card-img {
+                width: 70%;
+            }
+
+            .card-title {
+                font-size: 20px;
+                margin-top: 26px;
+            }
+
+            .card-btn {
+                margin-top: 0;
+            }
+
+
+        }
+    }
+
+
+
+    .questions {
+        padding: 0 10px;
+
+        .accordion {
+            .accordion-item {
+                .accordion-header {
+                    .accordion-button {
+                        font-size: 17px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+    .footer {
+        padding: 52px 16px 0;
+
+        p {
+            text-align: left;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

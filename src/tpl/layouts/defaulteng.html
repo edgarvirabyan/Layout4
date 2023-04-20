@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>{{ title }}</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
+    <link rel="stylesheet" href="{{root}}assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <main class="main">
+            <div class="promo" id="home">
+                <div class="container-fluid">
+                    <div class="promo__header">
+                        <a class="promo__logo" href="#"><img src="assets/images/icons/gdaLogo.svg" alt="logo"></a>
+                        <ul class="promo__nav">
+                            <li class="promo__link hvr-underline-from-left"><a href="#lessons">All Courses</a></li>
+                            <li class="promo__link hvr-underline-from-left"><a href="#about">About us</a>
+                            </li>
+                            <li class="promo__link hvr-underline-from-left"><a href="#questions">FAQ</a></li>
+                            <li class="promo__link hvr-underline-from-left"><a href="#footer">Contacts</a>
+                            </li>
+
+                        </ul>
+                        <div class="btn-wrapper dropdown-center">
+                            <button class="toggle-language btn btn-secondary dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">ENG</button>
+                            <ul class="dropdown-content dropdown-menu">
+                                <li><a href="english.html" class="language-link dropdown-item"
+                                        data-lang="en">English</a></li>
+                                <li><a href="russian.html" class="language-link dropdown-item"
+                                        data-lang="ru">Русский</a></li>
+                                <li><a href="index.html" class="language-link dropdown-item" data-lang="am">Հայերեն</a>
+                                </li>
+                            </ul>
+
+                            <button class="registration hvr-grow"
+                                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfZhizwXzhHWnRf5w_ULtV-cWdp_QRnvYuXs9gLO7B8YNujkA/viewform'">SIGN
+                                UP NOW</button>
+
+                        </div>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="particles" id="particles-js"></div>
+            </div>
+
+
+
+
+            <section class="lessons" id="lessons">
+                <div class="container">
+                    <h1 class="lessons__title">All Courses</h1>
+                    <div class="lessons__carousel">
+
+                        <div class="lessons__card">
+                            <div class="card-inner">
+                                <img class="card-img" src="assets/images/slides/lessons/unrealEngine.svg"
+                                    alt="unrealEngine">
+                                <h6 class="card-title">UNREAL ENGINE</h6>
+                                <button class="card-btn" data-modal="unrealEngine">More</button>
+                            </div>
+                        </div>
+                        <div class="lessons__card">
+                            <div class="card-inner">
+                                <img class="card-img" src="assets/images/slides/lessons/conceptArt.svg"
+                                    alt="conceptArt">
+                                <h6 class="card-title">CONCEPT ART</h6>
+                                <button class="card-btn" data-modal="conceptArt">More</button>
+                            </div>
+                        </div>
+                        <div class="lessons__card">
+                            <div class="card-inner">
+                                <img class="card-img" src="assets/images/slides/lessons/blender.svg" alt="blender">
+                                <h6 class="card-title">BLENDER</h6>
+                                <button class="card-btn" data-modal="blender">More</button>
+                            </div>
+                        </div>
+
+                        <div class="lessons__card">
+                            <div class="card-inner">
+                                <img class="card-img" src="assets/images/slides/lessons/archvis.svg" alt="archvis">
+                                <h6 class="card-title">ARCHVIS (ONLY UNREAL ENGINE)</h6>
+                                <button class="card-btn" data-modal='onlyUE'>More</button>
+                            </div>
+                        </div>
+                        <div class="lessons__card">
+                            <div class="card-inner">
+                                <img class="card-img" src="assets/images/slides/lessons/smaxUE.svg" alt="3dsmaxUE">
+                                <h6 class="card-title">ARCHVIS (3D’S MAX +
+                                    UNREAL ENGINE)</h6>
+                                <button class="card-btn" data-modal='smaxUE'>More</button>
+                            </div>
+                        </div>
+                        <div class="lessons__card">
+                            <div class="card-inner">
+                                <img class="card-img" src="assets/images/slides/lessons/soon.svg" alt="unrealEngine">
+                                <h6 class="card-title">coming SOON</h6>
+
+                            </div>
+                        </div>
+                    </div>
+                    <button class="prev_arrow"><img src="assets/images/icons/slideLeft.svg" alt="Previous"></button>
+                    <button class="next_arrow"><img src="assets/images/icons/slideRight.svg" alt="Next"></button>
+                </div>
+            </section>
+
+            <section class="about animate__animated" id="about">
+                <div class="container">
+                    <h2 class="about__title">About us</h2>
+                    <div class="about__wrapper">
+                        <div class="about__descr">
+                            <p>Game developers design and create video games. They work in teams
+                                those
+                                they include: actors, programmers, producers and marketing
+                                specialists.<br>Game developers mainly specialize in a specific game
+                                platforms (eg <span>PC, PlayStation, Xbox, Mobile: IOS</span> or
+                                <span>Android</span>), and special
+                                in directions such as: programming, artificial intelligence, gameplay
+                                etc.<br>In some cases, when creating games, Game Developers combine
+                                several jobs at the same time.
+                            </p>
+                        </div>
+                        <div class="about__image"><img src="assets/images/content/gamepads.png" alt="gamepads"></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="gamedev animate__animated">
+                <div class="container">
+                    <h2 class="gamedev__title">Why Choose Game Development?</h2>
+                    <div class="gamedev__wrapper">
+
+                        <div class="gamedev__image"><img src="assets/images/content/protagonists.png"
+                                alt="protagonists"></div>
+                        <div class="gamedev__descr">
+                            <p>Maybe because it's a career that involves cutting-edge technology
+                                and a combination of creativity. It can also be because you love
+                                play video games and want to bring your creative ideas to life. Maybe you?
+                                Do you want a career that allows you to travel?
+                                during or from home. Maybe you like drawing and making things on your own?
+                                manually through a virtual platform. There are many reasons you will want to work
+                                in game development, and there are dozens of career paths that will open up to you
+                                in many fields.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="targets">
+                <div class="container">
+                    <div class="targets__wrapper">
+
+                        <div class="targets__way">
+
+                            <div class="targets__one">01</div>
+                            <h3 class="way__title">Our way</h3>
+                            <div class="way-line"></div>
+                            <div class="way__descr">Enable students to learn and create high quality
+                                video
+                                games for Mobile: IOS, Android, Desktop and Console: Playstation, Xbox and other
+                                platforms.
+
+                            </div>
+                        </div>
+
+                        <div class="targets__line"></div>
+
+                        <div class="plan-result_wrapper">
+                            <div class="targets__plan">
+
+                                <div class="targets__two">02</div>
+                                <h3 class="plan__title">Our goal</h3>
+                                <div class="plan-line"></div>
+                                <div class="plan__descr">Our mission is to establish a quality educational institution
+                                    in Armenia
+                                    institution.
+
+                                </div>
+                            </div>
+
+                            <div class="targets__result">
+
+                                <div class="targets__three">03</div>
+                                <h3 class="result__title">Result</h3>
+                                <div class="result-line"></div>
+                                <div class="result__descr">We are ready to guide students to develop creatively
+                                    idea
+                                    in game creation and open up new opportunities for young people.
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="ecosystem animate__animated">
+                <div class="container">
+                    <h2 class="ecosystem__title">Ecosystem</h2>
+                    <div class="ecosystem__wrapper">
+                        <div class="ecosystem__descr">
+                            <p>Ecosystem: a new word in partnership in Armenia, which is weak
+                                allows to consolidate several areas and form one complex cooperation, which
+                                handyman
+                                is first of all to the client-student. We are very proud to introduce our associates
+                                and:
+                                colleagues who are ready for our students as computer games
+                                creators,
+                                provide preferential conditions when using their services in order to play
+                                the development of the sector will be easier, more pleasant and faster. Privileges and
+                                special discounts
+                                for
+                                you need to contact our <span>partners</span>.</p>
+                        </div>
+                        <div class="ecosystem__image"><img src="assets/images/content/infinity.svg" alt="eco"></div>
+                    </div>
+                    <div class="partners">
+                        <div class="container">
+                            <div class="partners__carousel">
+                                <div class="partners__card">
+                                    <div class="card-inner">
+
+                                        <img class="card-img" src="assets/images/slides/partners/notebookCenter.svg"
+                                            alt="notebookcenter">
+                                        <h6 class="card-title">NOTEBOOK center</h6>
+                                        <a target="_blank" href="https://www.facebook.com/notebookcentre.am/"
+                                            class="card-btn">More</a>
+                                    </div>
+                                </div>
+                                <div class="partners__card">
+                                    <div class="card-inner">
+
+                                        <img class="card-img" src="assets/images/slides/partners/sperasoft.svg"
+                                            alt="sperasoft">
+                                        <h6 class="card-title">SPERASOFT</h6>
+                                        <a target="_blank" href="https://www.facebook.com/Sperasoft.Armenia"
+                                            class="card-btn">More</a>
+                                    </div>
+                                </div>
+                                <div class="partners__card">
+                                    <div class="card-inner">
+
+                                        <img class="card-img" src="assets/images/slides/partners/araratTennis.svg"
+                                            alt="ararattennis">
+                                        <h6 class="card-title">ARARAT tennis</h6>
+                                        <a target="_blank" href="https://www.facebook.com/ararattennisclub/"
+                                            class="card-btn">More</a>
+                                    </div>
+                                </div>
+                                <div class="partners__card">
+                                    <div class="card-inner">
+
+                                        <img class="card-img" src="assets/images/slides/partners/dts.svg"
+                                            alt="downtownsuites">
+                                        <h6 class="card-title">DOWNTOWN SUITES YEREVAN</h6>
+                                        <a target="_blank" href="https://downtownsuites.am/" class="card-btn">More</a>
+                                    </div>
+                                </div>
+                                <div class="partners__card">
+                                    <div class="card-inner">
+
+                                        <img class="card-img" src="assets/images/slides/partners/gameNews.svg"
+                                            alt="gamenews">
+                                        <h6 class="card-title">GAME NEWS</h6>
+                                        <a target="_blank" href="https://www.facebook.com/ArmGameNews"
+                                            class="card-btn">More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="prev_arrow"><img src="assets/images/icons/slideLeft.svg"
+                                    alt="Previous"></button>
+                            <button class="next_arrow hvr-grow-shadow"><img src="assets/images/icons/slideRight.svg"
+                                    alt="Next"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="questions">
+                <div class="container-fluid">
+                    <div class="questions__wrapper accordion">
+
+                        <h2 class="questions__title" id="questions">Frequently asked questions
+                        </h2>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    Do you need programming skills to make games?
+                                </div>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Programming knowledge is welcome, however beginners
+                                    in the course we will also provide the necessary programming knowledge
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Will the courses be online or stationary (offline)?
+                                </div>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Courses for beginners will be held only offline
+                                    option. One of the key points of the academy is the connections between different
+                                    creators
+                                    confirming and
+                                    forming teams. It is possible to achieve this most effectively only in stationary
+                                    courses
+                                    through
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    How do I register for courses?
+                                </div>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    You can send the pre-registration request <a
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfZhizwXzhHWnRf5w_ULtV-cWdp_QRnvYuXs9gLO7B8YNujkA/viewform"
+                                        class="answer-link">here</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                    How many participants will there be during the class?
+                                </div>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Each class is designed for a maximum of 5 participants.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFive">
+                                    What is required of me to attend classes?
+                                </div>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li>You need a computer or laptop for homework,
+                                            with minimum specifications:</li>
+                                        <li> 8 GB Ram, I3 or equivalent AMD CPU, at least 30 GB free disk space
+                                            space, 1:
+                                            GB:
+                                            GPU</li>
+                                        <li>USB flash drive with a minimum of 2 GB of free space</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseSix">
+                                    What are the advantages of taking inpatient offline classes?
+                                </div>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse">
+                                <div class="accordion-body">
+                                    Here are some advantages of studying at our academy <ol>
+                                        <li>Meet new people and make like-minded friends.</li>
+                                        <li>Completing assignments within the required time frame that will contribute
+                                            to your learning
+                                            to progress.</li>
+                                        <li>Experienced teachers who will answer your questions.</li>
+                                        <li>Graduation certificate.</li>
+                                        <li>Mastering the sequence of the entire game creation process.</li>
+                                        <li>Homework that will help to strengthen the acquired knowledge.</li>
+                                        <li>After completing the basic training, you will join a team of supporters to
+                                            help
+                                            yours
+                                            progress after completing courses and more</li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+        <footer class="footer" id="footer">
+            <div class="container">
+                <h2 class="footer__title">Contacts</h2>
+                <div class="footer__wrapper">
+                    <div class="footer__contact">
+                        <span><a href="tel:+37495100159">(+374)95 10 01 59</a></span>
+                        <span><a href="mailto:info@gda.am">info@gda.am</a></span>
+                        <address>Our address: Yerevan, Alek Manukyan st 2</address>
+                    </div>
+                    <div class="footer__social">
+                        <a target="_blank" class="social-item hvr-bob"
+                            href="https://www.facebook.com/gamedevelopmentacademyarmenia"><img
+                                src="assets/images/icons/facebook.svg" alt="facebook"></a>
+                        <a target="_blank" class="social-item hvr-bob" href="https://www.instagram.com/gda_am/"><img
+                                src="assets/images/icons/instagram.svg" alt="instagram"></a>
+                        <a target="_blank" class="social-item hvr-bob" href="https://www.tiktok.com/@gda_am"><img
+                                src="assets/images/icons/tiktok.svg" alt="tiktok"></a>
+
+                    </div>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2155.430107910581!2d44.52365655187606!3d40.18150562321683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abcef5b02b429%3A0xb0f952bbfa8bdec9!2s2%20Alek%20Manukyan%20St%2C%20Yerevan%200025!5e0!3m2!1sen!2sam!4v1681304837174!5m2!1sen!2sam"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <p>© 2023 Game Development Academy. All rights reserved.<br><a target="_blank"
+                        href="policy.html">Personal data
+                        terms of processing</a>
+                </p>
+
+            </div>
+        </footer>
+
+
+    </div>
+
+
+    <div class="overlay">
+
+
+        <div class="modal unrealEngine" id="unrealEngine">
+
+
+            <div class="first-half">
+                <div class="title-box">
+                    <img src="assets/images/modals/UEsmall.svg" alt="unrealEngine">
+                    <h3 class="modal__title">unreal engine</h3>
+                </div>
+                <p class="modal__descr">You will be able to take your first steps into the world in a short period of
+                    time
+                    the most profitable and creative professions - computer, console and phone games
+                    in a wonderful and creative field of creation.</p>
+                <h4 class="modal__condition">Conditions</h4>
+                <ul class="condition-list">
+                    <li class="condition-item">
+                        <p>Duration: <span>3 months</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Course format. The class is held offline (classroom)</p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Classes. <span>6 hours/week</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>The basic monthly cost of the courses <span>55000֏</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Monthly cost of courses for 2020 war veterans and their children
+                            <span>45000֏</span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="modal__line"></div>
+
+            <div class="second-half">
+                <h4 class="components_title">Lesson Components</h4>
+                <ul class="components-list">
+                    <li class="components-item">
+                        <p>Introduction to engine</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Coordinates, Transforms, Units, and Organization</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Applying Lighting and Rendering</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Creating and Using Materials</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Using Audio Systems</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Creating Landscapes and Foliage</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Animations</p>
+                    </li>
+                    <li class="components-item">
+                        <p>AI</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Optimization</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Practice, teamwork and homework</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Unreal Engine's Blueprint (Visual Scripting)</p>
+                    </li>
+                    <li class="components-item">
+                        <p>And much more</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="registration registration-modal hvr-grow"
+                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfZhizwXzhHWnRf5w_ULtV-cWdp_QRnvYuXs9gLO7B8YNujkA/viewform'">SIGN
+                UP
+                NOW</button>
+            <div class="modal__close">&times;</div>
+
+
+        </div>
+        <div class="modal blender" id="blender">
+
+            <div class="first-half">
+                <div class="title-box">
+                    <img src="assets/images/modals/blenderSmall.svg" alt="blender">
+                    <h3 class="modal__title">asset creation blender</h3>
+                </div>
+                <p class="modal__descr">Start your career as a 3D artist. This course will allow you to
+                    immerse yourself in the vast world of modern digital production.</p>
+                <h4 class="modal__condition">Conditions</h4>
+                <ul class="condition-list">
+                    <li class="condition-item">
+                        <p>Duration: <span>3 months</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Course format. The class is held offline (classroom)</p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Classes. <span>6 hours/week</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>The monthly cost of courses <span>45000֏</span></p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="modal__line"></div>
+
+            <div class="second-half">
+                <h4 class="components_title">Lesson Components</h4>
+                <ul class="components-list">
+                    <li class="components-item">
+                        <p>Blender</p>
+                    </li>
+                    <li class="components-item">
+                        <p>UV</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Modeling Objects & Characters</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Animation</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Exterior & Interior</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Lightning</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Texturing</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Rendering</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Rigging</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Sculpting</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Texture Paint</p>
+                    </li>
+                    <li class="components-item">
+                        <p>And much more</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="registration registration-modal hvr-grow"
+                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfZhizwXzhHWnRf5w_ULtV-cWdp_QRnvYuXs9gLO7B8YNujkA/viewform'">SIGN
+                UP
+                NOW</button>
+            <div class="modal__close">&times;</div>
+
+        </div>
+        <div class="modal conceptArt" id="conceptArt">
+
+            <div class="first-half">
+                <div class="title-box">
+                    <img src="assets/images/modals/conceptArtSmall.svg" alt="conceptArt">
+                    <h3 class="modal__title">CONCEPT ART</h3>
+                </div>
+                <p class="modal__descr">It is this specialist who comes up with the general visual concept of the future
+                    game,
+                    detailed development of characters and game environment.</p>
+                <h4 class="modal__condition">Conditions</h4>
+                <ul class="condition-list">
+                    <li class="condition-item">
+                        <p>Duration: <span>3 months</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Course format. The class is held offline (classroom)</p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Classes. <span>6 hours/week</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>The basic monthly cost of the courses <span>45000֏</span></p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="modal__line"></div>
+
+            <div class="second-half">
+                <h4 class="components_title">Lesson Components</h4>
+                <ul class="components-list">
+                    <li class="components-item">
+                        <p>Introduction to concept art</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Adobe Photoshop</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Adobe Illustrator</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Character Design</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Color Theory</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Concepts & Theories</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Color psychology</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Environment</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Perspective</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Composition</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Game UI</p>
+                    </li>
+                    <li class="components-item">
+                        <p>And much more</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="registration registration-modal hvr-grow"
+                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfZhizwXzhHWnRf5w_ULtV-cWdp_QRnvYuXs9gLO7B8YNujkA/viewform'">SIGN
+                UP
+                NOW</button>
+            <div class="modal__close">&times;</div>
+
+        </div>
+        <div class="modal smaxUE" id="smaxUE">
+
+            <div class="first-half">
+                <div class="title-box">
+                    <img src="assets/images/modals/smaxUESmall.svg" alt="archvis">
+                    <h3 class="modal__title"><span>ARCH VIS</span> 3D’S MAX
+                        UNREAL ENGINE</h3>
+                </div>
+                <p class="modal__descr">Acquire and improve your skills in interior design and
+                    in the field of architecture, giving your clients an even more visual and satisfying result.</p>
+                <h4 class="modal__condition">Conditions</h4>
+                <p class="condition__descr">The "3Ds Max + Unreal Engine 5" version of the Arch Vis course is designed
+                    for those new to 3D modeling and visualization.
+
+                    By participating in the course, you will learn the practical knowledge of the above two programs.
+                    Appropriating
+                    3Ds Max, you will be able to create the 3D models needed for the project, and Unreal Engine 5
+                    will enable you to export your created scene in high quality video format as well
+                    will enable the consumer to explore the scene in an interactive 3D space. </p>
+                <ul class="condition-list">
+                    <li class="condition-item">
+                        <p>Duration: <span>3 months</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Course format. The class is held offline (classroom)</p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Classes. <span>6 hours/week</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>The basic monthly cost of the courses <span>45000֏</span></p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="modal__line"></div>
+
+            <div class="second-half">
+                <h4 class="components_title">Lesson Components</h4>
+                <ul class="components-list">
+                    <li class="components-item">
+                        <p>Autodesk 3ds Max</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Corona Renderer</p>
+                    </li>
+                    <li class="components-item">
+                        <p>AutoCAD</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Exterior & Interior design</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Modeling</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Texturing</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Rendering</p>
+                    </li>
+                    <li class="components-item">
+                        <p>UV</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Unreal Engine 5</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Import</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Materials</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Landscapes</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Foliage</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Lightning</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Audio</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Animation</p>
+                    </li>
+                    <li class="components-item">
+                        <p>DataSmith</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Cinematics/ Video Export</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Interactive Environment</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Portfolio</p>
+                    </li>
+                    <li class="components-item">
+                        <p>And much more</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="registration registration-modal hvr-grow"
+                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfZhizwXzhHWnRf5w_ULtV-cWdp_QRnvYuXs9gLO7B8YNujkA/viewform'">SIGN
+                UP NOW</button>
+            <div class="modal__close">&times;</div>
+
+        </div>
+
+
+        <div class="modal onlyUE" id="onlyUE">
+
+            <div class="first-half">
+                <div class="title-box">
+                    <img src="assets/images/modals/UESmall.svg" alt="archvis">
+                    <h3 class="modal__title"><span>ARCH VIS</span><br>
+                        ONLY UNREAL ENGINE</h3>
+                </div>
+                <p class="modal__descr">Hone your skills in interior design and architecture
+                    in the field, giving your customers an even more vivid and satisfying result.</p>
+                <h4 class="modal__condition">Conditions</h4>
+                <p class="condition__descr">The "Unreal Engine only" version of the ArchVis course is intended for it
+                    for people who are proficient in 3D modeling.
+                    <br><br>
+                    By participating in the course, you will learn the practical knowledge of visualization with Unreal.
+                    The course
+                    will enable you to export your created scene in high quality video format as well
+                    will allow the consumer to explore the scene in an interactive 3D space
+                </p>
+                <ul class="condition-list">
+                    <li class="condition-item">
+                        <p>Duration: <span>1 month</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Course format. The class is held offline (classroom)</p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Classes. <span>6 hours/week</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Basic monthly cost of courses <span>55000 ֏</span></p>
+                    </li>
+                    <li class="condition-item">
+                        <p>Monthly cost of courses for 2020 war veterans and their children <span>45000֏</span></p>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="modal__line"></div>
+
+            <div class="second-half">
+                <h4 class="components_title">Lesson Components</h4>
+                <ul class="components-list">
+                    <li class="components-item">
+                        <p>Unreal Engine 5</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Import</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Materials</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Landscapes</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Foliage</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Lightning</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Audio</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Animation</p>
+                    </li>
+                    <li class="components-item">
+                        <p>DataSmith</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Cinematics/Video Export</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Interactive Environment</p>
+                    </li>
+                    <li class="components-item">
+                        <p>Portfolio</p>
+                    </li>
+                    <li class="components-item">
+                        <p>And much more</p>
+                    </li>
+                </ul>
+            </div>
+            <button class="registration registration-modal hvr-grow"
+                onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSfZhizwXzhHWnRf5w_ULtV-cWdp_QRnvYuXs9gLO7B8YNujkA/viewform'">SIGN
+                UP
+                NOW</button>
+            <div class="modal__close">&times;</div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <a class="pageup hvr-grow" href="#home">
+        <img src="assets/images/icons/pageup.svg" alt="Home">
+    </a>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

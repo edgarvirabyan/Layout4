@@ -1,0 +1,45 @@
+@media (max-width: 394px) {
+    .targets {
+
+        .targets__way,
+        .targets__plan,
+        .targets__result {
+            width: 200px;
+
+
+        }
+
+        .plan-result_wrapper {
+
+            margin: 128px 0 0 60px;
+        }
+
+        .way__title,
+        .plan__title,
+        .result__title {
+
+            font-size: 22px;
+
+        }
+
+        .targets__one {
+            bottom: 171px;
+        }
+
+        .targets__two {
+            top: 299px;
+        }
+
+        .plan__title {
+            margin-left: 18px;
+        }
+
+        .way__title {
+            margin-left: 11px;
+        }
+
+        .result__title {
+            margin-left: 23px;
+        }
+    }
+}

@@ -1,0 +1,117 @@
+.lessons {
+
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        top: 56%;
+        transform: translateY(-50%);
+        left: -100px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .slick-next {
+        right: -100px;
+        left: auto;
+    }
+
+    .slick-slide {
+        margin: 75px 26px;
+    }
+
+    .slick-center {
+        -webkit-transform: scale(1.25);
+        -moz-transform: scale(1.25);
+        transform: scale(1.25);
+    }
+
+    .slick-dots {
+        top: 96%;
+        left: 50%;
+        transform: translatex(-50%);
+        position: absolute;
+        display: flex !important;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+
+
+    .slick-dots li {
+        margin: 0 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: white;
+        transition: all 0.3s ease;
+        margin: 0 20px;
+
+        &.slick-active {
+            bottom: 5px;
+            position: relative;
+            background-color: #00FEB2;
+            width: 20px;
+            height: 20px;
+
+        }
+    }
+
+    .slick-dots li button {
+        display: none;
+    }
+}
+
+.partners {
+
+    .slick-prev,
+    .slick-next {
+        position: absolute;
+        top: 56%;
+        transform: translateY(-50%);
+        left: -100px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .slick-next {
+        right: -100px;
+        left: auto;
+    }
+
+    .slick-dots {
+        top: 100%;
+        left: 50%;
+        transform: translatex(-50%);
+        position: absolute;
+        display: flex !important;
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+
+
+    .slick-dots li {
+        margin: 0 5px;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: white;
+        transition: all 0.3s ease;
+        margin: 0 20px;
+
+        &.slick-active {
+            bottom: 5px;
+            position: relative;
+            background-color: #00FEB2;
+            width: 20px;
+            height: 20px;
+
+        }
+    }
+
+    .slick-dots li button {
+        display: none;
+    }
+}

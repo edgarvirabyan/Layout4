@@ -1,0 +1,36 @@
+* {
+    font-family: 'Montserrat arm', sans-serif;
+}
+
+@font-face {
+    font-family: 'Montserrat arm';
+    src: url('../fonts/Montserratarm-Light.eot');
+    src: url('../fonts/Montserratarm-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserratarm-Light.woff') format('woff'),
+        url('../fonts/Montserratarm-Light.otf') format('opentype'),
+        url('../fonts/Montserratarm-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat arm';
+    src: url('../fonts/Montserratarm-SemiBold.eot');
+    src: url('../fonts/Montserratarm-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserratarm-SemiBold.woff') format('woff'),
+        url('../fonts/Montserratarm-SemiBold.otf') format('opentype'),
+        url('../fonts/Montserratarm-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat arm';
+    src: url('../fonts/Montserratarm-Black.eot');
+    src: url('../fonts/Montserratarm-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserratarm-Black.woff') format('woff'),
+        url('../fonts/Montserratarm-Black.otf') format('opentype'),
+        url('../fonts/Montserratarm-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

@@ -1,0 +1,33 @@
+.body {
+	scroll-margin-top: 80px;
+}
+
+.wrapper {
+	position: relative;
+	z-index: 2;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
+	max-height: 100%;
+	background-color: $third-color;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	max-width: 932px;
+	margin: 0 auto;
+	// padding: 0 15px;
+}
+
+.container-fluid {
+	max-width: 1920px;
+	margin: 0 auto;
+	// padding: 0 10px;
+}

@@ -1,0 +1,328 @@
+@media (max-width: 575px) {
+    .promo {
+        background-position: bottom 25%;
+        padding: 46px 3px 0;
+        min-height: 476px;
+
+        .promo__nav {
+            width: 80%;
+            padding: 250px 15px;
+
+            .promo__link {
+                width: 100%;
+                padding-right: 0;
+                border: none;
+                margin: 20px 0;
+
+                a {
+                    font-size: 20px;
+                    line-height: 25px;
+                }
+            }
+        }
+
+        .hamburger {
+            margin-left: 16px;
+        }
+
+        .toggle-language {
+            margin-left: 16px;
+        }
+
+        .registration {
+            margin-left: 16px;
+            width: 120px;
+
+
+            button {
+                width: 120px;
+                font-size: 10px;
+            }
+        }
+    }
+
+    .lessons {
+        .lessons__title {
+            font-size: 22px;
+        }
+
+        .lessons__card {
+            display: block !important;
+            width: 70% !important;
+            margin: 0 auto;
+        }
+
+        .card-inner {
+            img {
+                width: 45%;
+            }
+        }
+
+
+        .prev_arrow {
+            top: 110%;
+            left: 59px;
+
+        }
+
+        .next_arrow {
+            top: 110%;
+            right: 58px;
+        }
+
+        .slick-next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+
+
+            right: 10px;
+        }
+
+        .slick-prev {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            z-index: 1;
+
+
+            left: 10px;
+        }
+
+
+        .slick-slide img {
+            display: block;
+        }
+
+        .slick-center {
+            display: block;
+            position: relative;
+            left: -webkit-calc(50% - 1px);
+            left: calc(50% - 1px);
+            z-index: 1;
+            -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+            transform: scale(1);
+        }
+
+        .slick-dots {
+            top: 89%;
+        }
+
+
+
+
+    }
+
+    .about {
+        .about__title {
+            font-size: 22px;
+
+        }
+
+        .about__wrapper {
+            align-items: center;
+
+        }
+
+
+    }
+
+    .gamedev {
+
+
+        .gamedev__title {
+            font-size: 22px;
+            line-height: 22px;
+
+        }
+
+        .gamedev__wrapper {
+            align-items: center;
+        }
+
+    }
+
+    .ecosystem {
+
+
+        .ecosystem__title {
+
+            font-size: 22px;
+        }
+
+        .ecosystem__wrapper {
+            align-items: center;
+        }
+
+        .partners {
+            .partners__title {
+                font-size: 22px;
+            }
+
+            .partners__card {
+                display: block !important;
+                width: 70% !important;
+                margin: 0 auto;
+                padding: 30px 5px 10px;
+            }
+
+
+
+
+            .prev_arrow {
+
+                left: 37px;
+
+            }
+
+            .next_arrow {
+
+                right: 36px;
+            }
+
+            .slick-next {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 40px;
+                height: 40px;
+                z-index: 1;
+
+
+                right: 10px;
+            }
+
+            .slick-prev {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 40px;
+                height: 40px;
+                z-index: 1;
+
+
+                left: 10px;
+            }
+
+
+            .slick-slide img {
+                display: block;
+            }
+
+            .slick-center {
+                display: block;
+                position: relative;
+                left: -webkit-calc(50% - 1px);
+                left: calc(50% - 1px);
+                z-index: 1;
+                -webkit-transform: scale(1);
+                -ms-transform: scale(1);
+                transform: scale(1);
+            }
+
+            .slick-dots {
+                top: 102%;
+            }
+        }
+
+    }
+
+    .questions {
+        .questions__title {
+            margin: 100px 0 20px;
+            font-size: 22px;
+            line-height: 22px;
+        }
+
+        .accordion {
+            .accordion-item {
+                .accordion-header {
+                    .accordion-button {
+                        width: 112%;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    .footer {
+        .footer__wrapper {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        address {
+            font-size: 17px;
+        }
+
+        .footer__social {
+            margin-bottom: 20px;
+            order: -1;
+        }
+    }
+
+
+    .modal {
+        max-width: 296px;
+        // padding: 30px 5px;
+        padding-top: 30px;
+
+        .first-half {
+            width: 265px;
+        }
+
+        .second-half {
+            width: 265px;
+        }
+    }
+
+
+
+    .modal__close {
+        top: 15px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

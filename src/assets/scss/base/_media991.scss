@@ -1,0 +1,242 @@
+@media (max-width: 991px) {
+    .promo {
+        min-height: 600px;
+        padding: 46px 16px 0;
+        background: url('../images/content/mainBg.svg') center top/120% no-repeat;
+
+        .promo__link {
+            margin-left: 18px;
+
+            a {
+                font-size: 11px;
+            }
+        }
+
+        .toggle-language {
+            margin-left: 25px;
+        }
+
+        .registration {
+            margin-left: 25px;
+            text-transform: uppercase;
+        }
+    }
+
+    .lessons {
+        padding: 0 16px 52px;
+
+        .lessons__card {
+            padding: 50px 15px 15px;
+            height: 290px;
+        }
+
+
+
+        .lessons__title {
+            font-size: 30px;
+            margin-left: 12px;
+        }
+
+        .lessons__carousel {
+            max-width: 650px;
+        }
+
+        .card-title {
+            font-size: 19px;
+            line-height: 19px;
+        }
+
+        .slick-slide {
+            margin: 56px 16px;
+        }
+
+        .slick-next {
+            img {
+                max-width: 60%;
+            }
+
+            right: -77px;
+        }
+
+        .slick-prev {
+            img {
+                max-width: 60%;
+            }
+
+            left: -50px;
+        }
+    }
+
+    .about {
+        .about__title {
+            font-size: 30px;
+            margin-left: 6px;
+        }
+
+        .about__wrapper {
+            align-items: center;
+        }
+    }
+
+    .gamedev {
+        .gamedev__title {
+            font-size: 30px;
+            margin-left: 6px;
+        }
+
+        .gamedev__wrapper {
+            align-items: center;
+        }
+
+    }
+
+    .ecosystem {
+
+
+        .ecosystem__title {
+            font-size: 30px;
+            margin-left: 6px;
+        }
+
+        .ecosystem__wrapper {
+
+            align-items: center;
+
+        }
+
+        .partners {
+            &__carousel {
+                max-width: 650px;
+            }
+
+            .partners__card {
+                min-height: 300px;
+                padding: 50px 5px 10px;
+            }
+
+            .card-img {
+                width: 60%;
+            }
+
+            .card-title {
+                font-size: 19px;
+                line-height: 19px;
+            }
+
+
+
+            .slick-next {
+                img {
+                    max-width: 60%;
+                }
+
+                right: -77px;
+            }
+
+            .slick-prev {
+                img {
+                    max-width: 60%;
+                }
+
+                left: -50px;
+            }
+
+        }
+    }
+
+    .questions {
+        .questions__title {
+            font-size: 26px;
+            margin-left: 22px;
+        }
+
+        .accordion {
+            .accordion-item {
+                padding: 28px 43px 28px 10px;
+
+                .accordion-header {
+                    .accordion-button {
+                        width: 105%;
+                        font-size: 15px;
+                    }
+                }
+
+                .accordion-collapse {
+                    .accordion-body {
+                        font-size: 14px;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+    .modal {
+        padding: 50px 15px;
+        max-width: 800px;
+
+        .first-half {
+            width: 310px;
+
+            .title-box {
+                .modal__title {
+                    font-size: 24px;
+                }
+            }
+
+            .modal__condition {
+                font-size: 22px;
+            }
+        }
+
+        .second-half {
+            width: 310px;
+
+            .components_title {
+                font-size: 22px;
+            }
+        }
+
+        .modal__close {
+            top: 16px;
+            right: 15px;
+        }
+
+        .registration {
+            bottom: 8px;
+            right: 15px;
+            text-transform: uppercase;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

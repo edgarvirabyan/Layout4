@@ -1,0 +1,44 @@
+%section-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: $main-color;
+}
+
+
+%card-title-big {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    color: $second-color;
+}
+
+%card-title-small {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: $second-color;
+}
+
+
+%card-btn-big {
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 18px;
+    color: $main-color;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+%card-btn-small {
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 12px;
+    color: $main-color;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
